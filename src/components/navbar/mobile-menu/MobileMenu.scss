@@ -130,3 +130,109 @@
     }
   }
 }
+.languages-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  height: 600px;
+  border-radius: $border-radius-primary;
+  overflow-y: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+
+  background-color: $section-header-color; // Ensure the background color matches your design
+  transition: all 0.3s ease-in-out;
+  &--closed {
+    visibility: hidden;
+    opacity: 0;
+
+    width: 0;
+  }
+
+  &--opened {
+    bottom: 50px;
+    visibility: visible;
+    opacity: 1;
+    width: 99%;
+  }
+  &::-webkit-scrollbar {
+    width: 5px;
+    border-radius: $background-color-primary;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $section-header-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $font-color-dark-gray;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-button:increment {
+    background: url("../../../assets/arrow-up.svg") no-repeat center center;
+    background-size: cover;
+  }
+
+  &__language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    border-bottom: 1px solid rgba($color: #fff, $alpha: 0.3);
+
+    &__image-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__image {
+        width: 30px;
+      }
+    }
+
+    &__name {
+      font-size: 16px;
+      color: $font-color-primary;
+      text-align: center;
+    }
+  }
+
+  &__cancel-button {
+    position: fixed;
+    bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
+    width: 99%;
+    border-radius: $border-radius-primary;
+    padding: 15px;
+    background-color: $section-header-color;
+    color: $font-color-primary;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    &--closed {
+      visibility: hidden;
+      opacity: 0;
+      width: 0;
+    }
+
+    &--opened {
+      bottom: 2px;
+      visibility: visible;
+      opacity: 1;
+      width: 99%;
+    }
+  }
+}
