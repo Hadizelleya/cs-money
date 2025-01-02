@@ -1,0 +1,132 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  user-select: none;
+  background-color: $background-color-primary;
+  position: absolute;
+  top: 0;
+
+  width: max-content;
+  overflow-y: auto;
+  height: 100vh;
+  padding: $padding-primary;
+  transition: all 0.3s ease-in-out;
+  &::-webkit-scrollbar {
+    width: 5px;
+    border-radius: $background-color-primary;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $section-header-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $font-color-dark-gray;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-button:increment {
+    background: url("../../../assets/arrow-up.svg") no-repeat center center;
+    background-size: cover;
+  }
+
+  &--opened {
+    visibility: visible;
+    left: 0;
+    opacity: 1;
+  }
+  &--closed {
+    left: -400px;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding-bottom: $padding-primary * 2;
+    justify-content: center;
+    border-bottom: 2px solid rgba($font-color-primary, $alpha: 0.3);
+    gap: 10px;
+    &__title {
+      color: $font-color-primary;
+      font-size: 20px;
+    }
+    &__column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+
+      &__icon {
+        font-size: 30px;
+        color: $font-color-primary;
+        cursor: pointer;
+      }
+      &__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+
+        &__link {
+          color: $font-color-dark-gray;
+          font-size: 18px;
+          font-weight: 700;
+          transition: color 0.3s ease;
+          &:hover {
+            color: $font-color-primary;
+          }
+        }
+      }
+
+      &__languages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        border-radius: $border-radius-primary;
+        background-color: $section-header-color;
+        gap: 10px;
+        cursor: pointer;
+
+        &__image {
+          width: 30%;
+        }
+        &__arrow {
+          transform: rotate(180deg);
+          transition: all 0.3s ease;
+          color: $font-color-primary;
+          font-size: 20px;
+
+          &--clicked {
+            transform: rotate(0deg);
+          }
+        }
+      }
+      &__currencies {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+        border-radius: $border-radius-primary;
+        background-color: $section-header-color;
+        gap: 10px;
+        cursor: pointer;
+
+        &__text {
+          font-size: 20px;
+          color: $font-color-primary;
+        }
+      }
+    }
+  }
+}

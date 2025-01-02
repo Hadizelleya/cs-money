@@ -1,0 +1,17 @@
+.steam-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: $button-color-primary;
+  color: $font-color-primary;
+  padding: calc($padding-primary/2) $padding-primary;
+  border-radius: $border-radius-primary;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 15px;
+  }
+  &:hover {
+    background-color: $button-color-secondary;
+  }
+}

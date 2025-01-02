@@ -1,0 +1,23 @@
+.navbar {
+  position: relative;
+  &__mobile {
+    background-color: $background-color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $padding-primary;
+    user-select: none;
+
+    &__left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      &__icon {
+        font-size: 30px;
+        color: $font-color-primary;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "weapon_name": "SG 553 | Danger Close (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/SG 553 | Danger Close (Well-Worn)",
+    "id": 1,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ Desert Eagle | Mecha Industries (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ Desert Eagle | Mecha Industries (Field-Tested)",
+    "id": 2,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Navaja Knife | Fade (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Navaja Knife | Fade (Factory New)",
+    "id": 3,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Tec-9 | Avalanche (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Tec-9 | Avalanche (Battle-Scarred)",
+    "id": 4,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "M4A1-S | Nitro (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/M4A1-S | Nitro (Factory New)",
+    "id": 5,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Skadoodle (Foil) | Cologne 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Skadoodle (Foil) | Cologne 2015",
+    "id": 6,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ Sawed-Off | Black Sand (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ Sawed-Off | Black Sand (Factory New)",
+    "id": 7,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "AUG | Aristocrat (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/AUG | Aristocrat (Battle-Scarred)",
+    "id": 8,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | device | MLG Columbus 2016",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | device | MLG Columbus 2016",
+    "id": 9,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Glock-18 | Synth Leaf (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Glock-18 | Synth Leaf (Minimal Wear)",
+    "id": 10,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | TACO (Gold) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | TACO (Gold) | Berlin 2019",
+    "id": 11,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "XM1014 | Frost Borre (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/XM1014 | Frost Borre (Factory New)",
+    "id": 12,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "AK-47 | Blue Laminate (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/AK-47 | Blue Laminate (Field-Tested)",
+    "id": 13,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Titan | Cluj-Napoca 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Titan | Cluj-Napoca 2015",
+    "id": 14,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "MP7 | Powercore (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/MP7 | Powercore (Field-Tested)",
+    "id": 15,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | huNter- (Gold) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | huNter- (Gold) | Berlin 2019",
+    "id": 16,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ M249 | Aztec (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ M249 | Aztec (Factory New)",
+    "id": 17,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Nova | Plume (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Nova | Plume (Factory New)",
+    "id": 18,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Autograph Capsule | Flipsid3 Tactics | Atlanta 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Autograph Capsule | Flipsid3 Tactics | Atlanta 2017",
+    "id": 19,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Worry (War Pig Pink)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Worry (War Pig Pink)",
+    "id": 20,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Aztec",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Aztec",
+    "id": 21,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Bossy Burger",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Bossy Burger",
+    "id": 22,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | TaZ | Krakow 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | TaZ | Krakow 2017",
+    "id": 23,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Music Kit | Kelly Bailey, Hazardous Environments",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Music Kit | Kelly Bailey, Hazardous Environments",
+    "id": 24,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | sergej | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | sergej | Berlin 2019",
+    "id": 25,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "SCAR-20 | Assault (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/SCAR-20 | Assault (Well-Worn)",
+    "id": 26,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | MLG | MLG Columbus 2016",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | MLG | MLG Columbus 2016",
+    "id": 27,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Counter Logic Gaming | Cluj-Napoca 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Counter Logic Gaming | Cluj-Napoca 2015",
+    "id": 28,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Bling (Shark White)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Bling (Shark White)",
+    "id": 29,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Moto Gloves | Cool Mint (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Moto Gloves | Cool Mint (Field-Tested)",
+    "id": 30,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Summer (Gold) | Katowice 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Summer (Gold) | Katowice 2019",
+    "id": 31,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "G3SG1 | Scavenger (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/G3SG1 | Scavenger (Well-Worn)",
+    "id": 32,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | jkaem | MLG Columbus 2016",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | jkaem | MLG Columbus 2016",
+    "id": 33,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Talon Knife | Ultraviolet (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Talon Knife | Ultraviolet (Factory New)",
+    "id": 34,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Renegades (Foil) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Renegades (Foil) | Berlin 2019",
+    "id": 35,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | FaZe Clan (Holo) | Atlanta 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | FaZe Clan (Holo) | Atlanta 2017",
+    "id": 36,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ AWP | Wildfire (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ AWP | Wildfire (Minimal Wear)",
+    "id": 37,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "G3SG1 | Black Sand (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/G3SG1 | Black Sand (Field-Tested)",
+    "id": 38,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Specialist Gloves | Crimson Kimono (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Specialist Gloves | Crimson Kimono (Battle-Scarred)",
+    "id": 39,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | karrigan | Cologne 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | karrigan | Cologne 2015",
+    "id": 40,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | shox | Cologne 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | shox | Cologne 2015",
+    "id": 41,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Kjaerbye (Gold) | London 2018",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Kjaerbye (Gold) | London 2018",
+    "id": 42,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | karrigan (Foil) | London 2018",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | karrigan (Foil) | London 2018",
+    "id": 43,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | QQ (Shark White)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | QQ (Shark White)",
+    "id": 44,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | shroud (Foil) | Krakow 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | shroud (Foil) | Krakow 2017",
+    "id": 45,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "M4A1-S | Nitro (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/M4A1-S | Nitro (Minimal Wear)",
+    "id": 46,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ PP-Bizon | Fuel Rod (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ PP-Bizon | Fuel Rod (Battle-Scarred)",
+    "id": 47,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Aerial (Foil) | Katowice 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Aerial (Foil) | Katowice 2019",
+    "id": 48,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Hand Wraps | Arboreal (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Hand Wraps | Arboreal (Factory New)",
+    "id": 49,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Perfecto (Foil) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Perfecto (Foil) | Berlin 2019",
+    "id": 50,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Ursus Knife | Urban Masked (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Ursus Knife | Urban Masked (Factory New)",
+    "id": 51,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "P250 | Asiimov (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/P250 | Asiimov (Minimal Wear)",
+    "id": 52,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Take Flight (Battle Green)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Take Flight (Battle Green)",
+    "id": 53,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ StatTrak™ Navaja Knife | Slaughter (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ StatTrak™ Navaja Knife | Slaughter (Field-Tested)",
+    "id": 54,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Fart (Bazooka Pink)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Fart (Bazooka Pink)",
+    "id": 55,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Five-SeveN | Scumbria (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Five-SeveN | Scumbria (Well-Worn)",
+    "id": 56,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | malta (Foil) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | malta (Foil) | Berlin 2019",
+    "id": 57,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Classic Knife | Stained (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Classic Knife | Stained (Field-Tested)",
+    "id": 58,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Sorry (Tiger Orange)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Sorry (Tiger Orange)",
+    "id": 59,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Eco (Shark White)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Eco (Shark White)",
+    "id": 60,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ Paracord Knife | Case Hardened (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ Paracord Knife | Case Hardened (Minimal Wear)",
+    "id": 61,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "M4A1-S | Blood Tiger (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/M4A1-S | Blood Tiger (Factory New)",
+    "id": 62,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "P90 | Chopper (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/P90 | Chopper (Battle-Scarred)",
+    "id": 63,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ CZ75-Auto | Eco (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ CZ75-Auto | Eco (Well-Worn)",
+    "id": 64,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | f0rest (Gold) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | f0rest (Gold) | Berlin 2019",
+    "id": 65,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ XM1014 | Ziggy (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ XM1014 | Ziggy (Well-Worn)",
+    "id": 66,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | denis (Foil) | Boston 2018",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | denis (Foil) | Boston 2018",
+    "id": 67,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | 8-Ball (Princess Pink)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | 8-Ball (Princess Pink)",
+    "id": 68,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ StatTrak™ Shadow Daggers | Rust Coat (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ StatTrak™ Shadow Daggers | Rust Coat (Well-Worn)",
+    "id": 69,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | device (Foil) | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | device (Foil) | Berlin 2019",
+    "id": 70,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "SG 553 | Atlas (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/SG 553 | Atlas (Battle-Scarred)",
+    "id": 71,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Tec-9 | Jambiya (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Tec-9 | Jambiya (Battle-Scarred)",
+    "id": 72,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | gla1ve (Gold) | Katowice 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | gla1ve (Gold) | Katowice 2019",
+    "id": 73,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Witchcraft",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Witchcraft",
+    "id": 74,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | shox | Krakow 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | shox | Krakow 2017",
+    "id": 75,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ StatTrak™ Huntsman Knife | Crimson Web (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ StatTrak™ Huntsman Knife | Crimson Web (Battle-Scarred)",
+    "id": 76,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | X-Axes (Frog Green)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | X-Axes (Frog Green)",
+    "id": 77,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "UMP-45 | Scaffold (Battle-Scarred)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/UMP-45 | Scaffold (Battle-Scarred)",
+    "id": 78,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "M4A1-S | Guardian (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/M4A1-S | Guardian (Field-Tested)",
+    "id": 79,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "MAG-7 | Hard Water (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/MAG-7 | Hard Water (Factory New)",
+    "id": 80,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "MP7 | Motherboard (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/MP7 | Motherboard (Minimal Wear)",
+    "id": 81,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | flusha (Foil) | Atlanta 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | flusha (Foil) | Atlanta 2017",
+    "id": 82,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ M4A4 | Buzz Kill (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ M4A4 | Buzz Kill (Well-Worn)",
+    "id": 83,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "CZ75-Auto | Polymer (Factory New)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/CZ75-Auto | Polymer (Factory New)",
+    "id": 84,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ StatTrak™ Bayonet | Autotronic (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ StatTrak™ Bayonet | Autotronic (Minimal Wear)",
+    "id": 85,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | shox (Foil) | Krakow 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | shox (Foil) | Krakow 2017",
+    "id": 86,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Bravo Pin",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Bravo Pin",
+    "id": 87,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | mousesports | Cologne 2015",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | mousesports | Cologne 2015",
+    "id": 88,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "AK-47 | Fuel Injector (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/AK-47 | Fuel Injector (Minimal Wear)",
+    "id": 89,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Magisk | Atlanta 2017",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Magisk | Atlanta 2017",
+    "id": 90,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "★ StatTrak™ Gut Knife | Black Laminate (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/★ StatTrak™ Gut Knife | Black Laminate (Well-Worn)",
+    "id": 91,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | suNny (Foil) | London 2018",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | suNny (Foil) | London 2018",
+    "id": 92,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "SG 553 | Phantom (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/SG 553 | Phantom (Well-Worn)",
+    "id": 93,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "StatTrak™ Tec-9 | Flash Out (Minimal Wear)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/StatTrak™ Tec-9 | Flash Out (Minimal Wear)",
+    "id": 94,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "AUG | Amber Slipstream (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/AUG | Amber Slipstream (Field-Tested)",
+    "id": 95,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sealed Graffiti | Cocky (Jungle Green)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sealed Graffiti | Cocky (Jungle Green)",
+    "id": 96,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | Virtus.Pro (Foil) | MLG Columbus 2016",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | Virtus.Pro (Foil) | MLG Columbus 2016",
+    "id": 97,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "SG 553 | Candy Apple (Field-Tested)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/SG 553 | Candy Apple (Field-Tested)",
+    "id": 98,
+    "type": "rifle",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "MP7 | Powercore (Well-Worn)",
+    "imageUrl": "https://api.steamapis.com/image/item/730/MP7 | Powercore (Well-Worn)",
+    "id": 99,
+    "type": "pistol",
+    "price": 6.99
+  },
+  {
+    "weapon_name": "Sticker | dexter | Berlin 2019",
+    "imageUrl": "https://api.steamapis.com/image/item/730/Sticker | dexter | Berlin 2019",
+    "id": 100,
+    "type": "rifle",
+    "price": 6.99
+  }
+]
