@@ -1,0 +1,23 @@
+.trade-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 40px;
+  background-color: $background-color-primary;
+  gap: 10px;
+
+  &__content {
+    width: 100%;
+
+    &__header {
+      color: $font-color-primary;
+      text-align: center;
+
+      padding: $padding-primary;
+    }
+    &__body {
+      display: flex;
+      gap: 30px;
+    }
+  }
+}

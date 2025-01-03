@@ -9,10 +9,22 @@ import { languageData } from "../../../data/langaugeData";
 import { currencyData } from "../../../data/currency";
 export default function MobileMenu({ isMobileMenuOpened, handleMobileMenu }) {
   const sidebarRef = useRef(null);
+  const languageMenuRef = useRef(null);
+  const currencyMenuRef = useRef(null);
+  const currencyButtonRef = useRef(null);
+  const languageButtonRef = useRef(null);
   const [isLanguageMenuOpened, setIsLanguageMenuOpened] = useState(false);
   const [isCurrencyMenuOpened, setIsCurrencyMenuOpened] = useState(false);
+
   const handleClickOutside = (event) => {
-    if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+    if (
+      sidebarRef.current &&
+      !sidebarRef.current.contains(event.target) &&
+      !languageMenuRef.current.contains(event.target) &&
+      !currencyMenuRef.current.contains(event.target) &&
+      !languageButtonRef.current.contains(event.target) &&
+      !currencyButtonRef.current.contains(event.target)
+    ) {
       handleMobileMenu();
     }
   };
@@ -129,6 +141,7 @@ export default function MobileMenu({ isMobileMenuOpened, handleMobileMenu }) {
         <>
           {" "}
           <div
+            ref={languageMenuRef}
             className={
               isLanguageMenuOpened
                 ? "languages-menu languages-menu--opened"
@@ -151,6 +164,7 @@ export default function MobileMenu({ isMobileMenuOpened, handleMobileMenu }) {
             ))}
           </div>
           <button
+            ref={languageButtonRef}
             onClick={handlelanguageMenu}
             className={
               isLanguageMenuOpened
@@ -161,6 +175,7 @@ export default function MobileMenu({ isMobileMenuOpened, handleMobileMenu }) {
             Cancel
           </button>
           <div
+            ref={currencyMenuRef}
             className={
               isCurrencyMenuOpened
                 ? "languages-menu languages-menu--opened"
@@ -179,6 +194,7 @@ export default function MobileMenu({ isMobileMenuOpened, handleMobileMenu }) {
             ))}
           </div>
           <button
+            ref={currencyButtonRef}
             onClick={handleCurrencyMenu}
             className={
               isCurrencyMenuOpened

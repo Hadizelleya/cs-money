@@ -1,0 +1,254 @@
+.offers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $section-header-color;
+    padding: $padding-primary/2;
+    border-radius: $border-radius-primary;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $font-color-secondary;
+    }
+
+    &__left-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &__icon {
+        font-size: 25px;
+        color: $font-color-primary;
+      }
+      &__text {
+        color: $font-color-primary;
+      }
+    }
+
+    &__right-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &__text {
+        color: $font-color-secondary;
+      }
+      &__icon {
+        font-size: 25px;
+        color: $font-color-secondary;
+      }
+    }
+  }
+
+  //body of the offers component
+  &__body {
+    background-color: $section-body-color;
+    border-radius: $border-radius-primary;
+    padding: $padding-primary;
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      &__search {
+        display: flex;
+        align-items: center;
+        background-color: $input-gray-background;
+        border-radius: $border-radius-primary;
+        padding: 5px 12px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $font-color-secondary;
+        }
+        &__input {
+          position: relative;
+          outline: none;
+          background-color: transparent;
+          border: none;
+          font-size: 18px;
+          padding: 5px $padding-primary/2;
+          color: $font-color-primary;
+          &::placeholder {
+            color: $font-color-lightgray;
+          }
+        }
+        &__icon {
+          color: rgba($font-color-primary, $alpha: 0.8);
+          font-size: 20px;
+        }
+      }
+      &__list-filtering {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        &__left {
+          user-select: none;
+          position: relative;
+          &__default {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: $font-color-lightgray;
+            transition: all 0.3s ease;
+            gap: 3px;
+            &:hover {
+              color: $font-color-primary;
+            }
+          }
+
+          &__dropdown {
+            position: absolute;
+            z-index: 2;
+            background-color: $input-gray-background;
+            padding: $padding-primary/2;
+            border-radius: $border-radius-primary/2;
+            left: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            gap: 15px;
+            width: max-content;
+            transform: translateX(-50%);
+            transition: all 0.2s ease-in-out;
+
+            &--closed {
+              visibility: hidden;
+              opacity: 0;
+              top: 0px;
+            }
+            &--opened {
+              visibility: visible;
+              opacity: 1;
+
+              top: 100%;
+            }
+
+            &__option {
+              display: flex;
+              align-items: center;
+              color: $font-color-lightgray;
+              transition: all 0.3s ease;
+              padding: $padding-primary/2;
+              border-radius: 5px;
+              cursor: pointer;
+              gap: 5px;
+              &:hover {
+                color: $font-color-primary;
+                background-color: $font-color-secondary;
+              }
+            }
+          }
+          &__icon {
+            font-size: 25px;
+          }
+          &__text {
+            font-size: 17px;
+          }
+        }
+
+        &__right {
+          display: flex;
+          &__icon {
+            font-size: 20px;
+
+            color: rgba($font-color-primary, $alpha: 0.8);
+            transition: all 0.4s ease;
+            cursor: pointer;
+
+            &:hover {
+              transform: rotate(360deg);
+            }
+          }
+        }
+      }
+    }
+
+    &__content {
+      &__wrapper {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+
+        &__message {
+          padding: $padding-primary;
+          height: 80px;
+          margin-top: $padding-primary;
+        }
+
+        &__inventory {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          gap: 30px;
+
+          &__title {
+            font-size: 18px;
+            color: $font-color-primary;
+            font-weight: 700;
+          }
+
+          &__divider {
+            width: 90%;
+            height: 1px;
+            border-radius: $border-radius-primary;
+            background-color: $font-color-dark-gray;
+          }
+          &__image-container {
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            padding: $padding-primary;
+
+            &__image {
+              width: 150px;
+              aspect-ratio: 1/1;
+            }
+          }
+
+          &__button {
+            display: flex;
+            align-items: center;
+            padding: $padding-primary/2 $padding-primary;
+            border: none;
+            border-radius: $border-radius-primary/2;
+            gap: 10px;
+            font-size: 20px;
+            background-color: $input-gray-background;
+            color: rgba($font-color-primary, $alpha: 0.5);
+            cursor: pointer;
+            margin-bottom: 100px;
+            transition: all 0.3s ease;
+            &:hover {
+              background-color: $font-color-dark-gray;
+              color: rgba($font-color-primary, $alpha: 0.9);
+            }
+          }
+        }
+      }
+    }
+  }
+}

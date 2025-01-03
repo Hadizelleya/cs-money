@@ -1,0 +1,44 @@
+.trade-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  height: 100vh;
+  padding: $padding-primary $padding-primary/2;
+  &__image-container {
+    &__image {
+      width: 100%;
+    }
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: $font-color-secondary;
+      transition: all 0.3s ease;
+
+      &:hover,
+      &:focus {
+        color: $font-color-primary;
+      }
+
+      &__icon {
+        font-size: 25px;
+      }
+
+      &__text {
+        font-size: 20px;
+      }
+    }
+  }
+}

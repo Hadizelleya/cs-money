@@ -4,7 +4,7 @@ $section-body-color: #282633;
 
 $font-color-primary: #f6fbfe;
 $font-color-secondary: #686573;
-$font-color-dark-gray: #747180;
+$font-color-dark-gray: #67666b;
 $font-color-purple: #706be2;
 $font-color-pink: #c85cd1;
 $font-color-lightgray: #a2a0ae;
@@ -12,6 +12,8 @@ $font-color-lightgray: #a2a0ae;
 $button-color-primary: #7c72f3;
 $button-color-secondary: #4c468c;
 $button-color-green: #59fe8b;
+
+$input-gray-background: #403d4d;
 
 $border-radius-primary: 10px;
 $border-radius-secondary: 20px;
@@ -26,6 +28,9 @@ $margin-primary: 15px;
 @import "./components/navbar/desktop-menu/DesktopMenu.scss";
 @import "./components/sign\ in\ with\ steam/SignInSteamButton.scss";
 @import "./components/navbar/mobile-menu/MobileMenu.scss";
+@import "./pages/trade/Trade.scss";
+@import "./components/trade\ sidebar/Trade_sidebar.scss";
+@import "./components/your\ offers/Offers.scss";
 * {
   padding: 0;
   margin: 0;
